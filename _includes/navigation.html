@@ -1,0 +1,38 @@
+<div class="quick-nav" style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin: 2rem 0;">
+  <h3 style="margin-top: 0; color: var(--primary-color);">📚 Quick Navigation</h3>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+    <a href="{{ '/getting-started' | relative_url }}" class="nav-card">🎬 Getting Started</a>
+    <a href="{{ '/user-roles' | relative_url }}" class="nav-card">👥 User Roles</a>
+    <a href="{{ '/leagues-competitions' | relative_url }}" class="nav-card">🏆 Leagues</a>
+    <a href="{{ '/clubs-teams' | relative_url }}" class="nav-card">⚽ Clubs</a>
+    <a href="{{ '/players' | relative_url }}" class="nav-card">👤 Players</a>
+    <a href="{{ '/fixtures-matches' | relative_url }}" class="nav-card">📅 Fixtures</a>
+    <a href="{{ '/standings' | relative_url }}" class="nav-card">📊 Standings</a>
+    <a href="{{ '/officials' | relative_url }}" class="nav-card">👨‍⚖️ Officials</a>
+    <a href="{{ '/venues' | relative_url }}" class="nav-card">🏟️ Venues</a>
+    <a href="{{ '/multi-sport' | relative_url }}" class="nav-card">🎾 Multi-Sport</a>
+  </div>
+</div>
+
+<style>
+.nav-card {
+  display: block;
+  padding: 1rem;
+  background: var(--light-bg);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.nav-card:hover {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--secondary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+</style>

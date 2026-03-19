@@ -1,0 +1,50 @@
+# LigiOpen Documentation Site Configuration
+title: LigiOpen
+description: The Complete Guide to Kenya's Premier Sports Management Platform
+baseurl: ""
+url: ""
+
+# Theme
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+nav_links:
+  - title: Home
+    url: /
+  - title: Getting Started
+    url: /getting-started
+  - title: User Roles
+    url: /user-roles
+  - title: Leagues & Competitions
+    url: /leagues-competitions
+  - title: Clubs & Teams
+    url: /clubs-teams
+  - title: Players
+    url: /players
+  - title: Fixtures & Matches
+    url: /fixtures-matches
+  - title: Standings & Rankings
+    url: /standings
+  - title: Officials & Referees
+    url: /officials
+  - title: Venues & Stadiums
+    url: /venues
+  - title: Multi-Sport Support
+    url: /multi-sport
+
+# SEO
+author: LigiOpen Team
+logo: /assets/images/ligiopen_logo_nobg.png
+social:
+  name: LigiOpen
+  links:
+    - https://github.com/ligiopen
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
