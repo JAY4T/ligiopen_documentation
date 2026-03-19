@@ -4,8 +4,7 @@ description: The Complete Guide to Kenya's Premier Sports Management Platform
 baseurl: ""
 url: ""
 
-# Theme
-theme: jekyll-theme-cayman
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -44,7 +43,32 @@ social:
     - https://github.com/ligiopen
 
 # Build settings
+source: .
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs/
+
+# Include files
+include:
+  - _layouts
+  - _includes
+  - assets
+
+# Sass/SCSS settings (we're using plain CSS)
+sass:
+  style: compressed
+  
+# Disable theme since we have custom layout
+theme: null
