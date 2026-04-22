@@ -15,24 +15,22 @@ nav_links:
     url: /
   - title: Getting Started
     url: /getting-started
-  - title: User Roles
+  - title: Understanding Roles
     url: /user-roles
-  - title: Leagues & Competitions
-    url: /leagues-competitions
-  - title: Clubs & Teams
-    url: /clubs-teams
-  - title: Players
-    url: /players
-  - title: Fixtures & Matches
-    url: /fixtures-matches
-  - title: Standings & Rankings
-    url: /standings
-  - title: Officials & Referees
-    url: /officials
-  - title: Venues & Stadiums
-    url: /venues
-  - title: Multi-Sport Support
-    url: /multi-sport
+  - title: Fan Guide
+    url: /fan
+  - title: Player Guide
+    url: /player
+  - title: Club Admin Guide
+    url: /club-admin
+  - title: League Admin Guide
+    url: /league-admin
+  - title: Super Admin Guide
+    url: /super-admin
+  - title: Content Admin Guide
+    url: /content-admin
+  - title: Official Guide
+    url: /official
 
 # SEO
 author: LigiOpen Team
