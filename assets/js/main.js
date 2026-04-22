@@ -1,6 +1,26 @@
 // LigiOpen Documentation Interactive Features
 
 document.addEventListener('DOMContentLoaded', function() {
+
+    // Hamburger nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    if (navToggle && navLinks) {
+        navToggle.addEventListener('click', function() {
+            const isOpen = navLinks.classList.toggle('open');
+            navToggle.classList.toggle('open', isOpen);
+            navToggle.setAttribute('aria-expanded', isOpen);
+        });
+        // Close nav when a link is tapped
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                navToggle.classList.remove('open');
+                navToggle.setAttribute('aria-expanded', false);
+            });
+        });
+    }
+
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -29,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const button = document.createElement('button');
         button.className = 'copy-btn';
         button.textContent = 'Copy';
-        button.style.cssText = 'position: absolute; top: 5px; right: 5px; padding: 5px 10px; background: #2C5F2D; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.8rem;';
+        button.style.cssText = 'position: absolute; top: 5px; right: 5px; padding: 5px 10px; background: #004D3D; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.8rem;';
         
         const wrapper = document.createElement('div');
         wrapper.style.position = 'relative';
@@ -50,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (headings.length > 5) {
         const toc = document.createElement('div');
         toc.className = 'table-of-contents';
-        toc.style.cssText = 'background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; border-left: 4px solid #2C5F2D;';
+        toc.style.cssText = 'background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; border-left: 4px solid #004D3D;';
         
         const tocTitle = document.createElement('h3');
         tocTitle.textContent = '📑 Table of Contents';
@@ -72,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const link = document.createElement('a');
             link.href = '#' + heading.id;
             link.textContent = heading.textContent;
-            link.style.cssText = 'color: #2C5F2D; text-decoration: none; display: block; padding: 0.3rem 0;';
+            link.style.cssText = 'color: #004D3D; text-decoration: none; display: block; padding: 0.3rem 0;';
             link.addEventListener('mouseover', () => link.style.textDecoration = 'underline');
             link.addEventListener('mouseout', () => link.style.textDecoration = 'none');
             
@@ -100,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        background: #2C5F2D;
+        background: #004D3D;
         color: white;
         border: none;
         font-size: 1.5rem;
@@ -128,12 +148,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     backToTop.addEventListener('mouseover', function() {
-        this.style.background = '#1a3d1b';
+        this.style.background = '#003329';
         this.style.transform = 'scale(1.1)';
     });
 
     backToTop.addEventListener('mouseout', function() {
-        this.style.background = '#2C5F2D';
+        this.style.background = '#004D3D';
         this.style.transform = 'scale(1)';
     });
 
@@ -152,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
         left: 0;
         width: 0%;
         height: 3px;
-        background: linear-gradient(to right, #2C5F2D, #DC143C);
+        background: linear-gradient(to right, #004D3D, #2459CF);
         z-index: 9999;
         transition: width 0.2s ease;
     `;

@@ -378,41 +378,195 @@ tbody tr:hover {
 }
 
 /* Responsive Design */
+
+/* Base — prevent horizontal overflow everywhere */
+html, body {
+  overflow-x: hidden;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables — scrollable on small screens */
+table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hamburger button — hidden on desktop */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger active state */
+.nav-toggle.open span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2) { opacity: 0; }
+.nav-toggle.open span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
 @media (max-width: 768px) {
+  /* Header */
   .header-content {
     flex-direction: column;
     text-align: center;
+    padding: 0 1rem;
+  }
+
+  .logo {
+    height: 52px;
   }
 
   .site-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .site-tagline {
+    font-size: 0.9rem;
+  }
+
+  .site-header {
+    padding: 1.2rem 0;
+  }
+
+  /* Nav — hamburger */
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-container {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .nav-links {
+    display: none;
     flex-direction: column;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid var(--neutral-color);
+    margin-top: 0.25rem;
+  }
+
+  .nav-links.open {
+    display: flex;
   }
 
   .nav-links a {
-    border-bottom: none;
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
     border-left: 3px solid transparent;
+    font-size: 0.95rem;
   }
 
   .nav-links a:hover,
   .nav-links a.active {
     border-left-color: var(--secondary-color);
+    border-bottom-color: #f0f0f0;
+    background: var(--light-bg);
   }
 
-  .card-grid {
-    grid-template-columns: 1fr;
+  /* Content */
+  .container {
+    padding: 0 1rem;
+    margin: 1rem auto;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 1.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
   }
 
   .hero p {
+    font-size: 1rem;
+  }
+
+  /* Cards */
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+  /* Workflow steps */
+  .workflow-step {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .step-number {
+    width: 40px;
+    height: 40px;
     font-size: 1.1rem;
   }
+
+  /* Scenario boxes */
+  .scenario {
+    padding: 1.25rem 1rem;
+    margin: 1.25rem 0;
+  }
+
+  .scenario h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Headings */
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
+
+  /* Footer */
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .site-footer {
+    padding: 2rem 0 1rem 0;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-title { font-size: 1.4rem; }
+  .logo { height: 44px; }
+  .hero h1 { font-size: 1.4rem; }
+  .container { padding: 0 0.75rem; }
+  .card { padding: 1rem; }
+  th, td { padding: 0.6rem 0.75rem; font-size: 0.9rem; }
 }
 
 /* Print Styles */
