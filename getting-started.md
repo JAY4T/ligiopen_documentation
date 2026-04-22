@@ -25,7 +25,7 @@ Fill in the following details:
 
 | Field | What to enter |
 |---|---|
-| **Full Name** | Your real name (e.g. "James Kamau") |
+| **Full Name** | Your real name (e.g. "David Mutua") |
 | **Email** | A valid email address you check regularly |
 | **Phone Number** | Your Kenyan or international mobile number |
 | **Password** | At least 6 characters |
@@ -144,7 +144,7 @@ To log out of LigiOpen:
 
 ## A Real Example: James Gets Started
 
-> **James Kamau** is a midfielder for Sofapaka FC's reserve team. His coach told him to download LigiOpen.
+> **David Mutua** is a midfielder for Sofapaka FC's reserve team. His coach told him to download LigiOpen.
 >
 > James downloaded the app, tapped **Register**, and filled in his name, email, and phone number. He got a 6-digit code on his Gmail, typed it in, and was in within 5 minutes.
 >

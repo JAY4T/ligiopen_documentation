@@ -239,7 +239,7 @@ The League Admin receives a notification to review and approve the result. Until
 
 ## A Real Scenario: Nyayo Stadium, Saturday Afternoon
 
-> It's Saturday afternoon at Nyayo National Stadium, Nairobi. **Gor Mahia vs AFC Leopards**. Kick-off is at 3:00 PM. **James Njoroge** is the Content Admin assigned to this fixture.
+> It's Saturday afternoon at Nyayo National Stadium, Nairobi. **Gor Mahia vs AFC Leopards**. Kick-off is at 3:00 PM. **Brian Wafula** is the Content Admin assigned to this fixture.
 >
 > **2:30 PM** — James arrives at the stadium, opens LigiOpen, and switches to his Content Admin role. He opens the Dashboard, sees the Gor Mahia vs AFC Leopards fixture, and taps it. Everything looks correct — teams, venue, 3:00 PM kick-off. He checks his phone battery (96%) and turns off screen lock.
 >
@@ -265,7 +265,7 @@ The League Admin receives a notification to review and approve the result. Until
 >
 > **5:00 PM** — Full time whistle. James taps Update Minute → 90. Reviews all events: 3 goals for Gor Mahia (Olunga ×2, Blackstar), 1 goal for AFC (Miheso). Correct. He taps **Submit Result** → Home: 3, Away: 1, Attendance: 22,000 → Submit.
 >
-> The League Admin approves the result 20 minutes later. Gor Mahia's 3 points are added to the standings. Wanjiku's WhatsApp group explodes. 🎉
+> The League Admin approves the result 20 minutes later. Gor Mahia's 3 points are added to the standings. Adhiambo's WhatsApp group explodes. 🎉
 
 ---
 

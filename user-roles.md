@@ -198,7 +198,7 @@ The app reloads the tabs and screens for that role.
 
 ## Role-Switching: A Real Example
 
-> **Coach Mwangi** is the team manager of Sofapaka FC. He has two LigiOpen roles: **Fan** and **Club Admin**.
+> **Coach Cheruiyot** is the team manager of Sofapaka FC. He has two LigiOpen roles: **Fan** and **Club Admin**.
 >
 > In the morning, he opens LigiOpen and switches to his **Club Admin** role. He checks the squad — a new player joined yesterday. He registers the player, fills in their details, and sends them an invite email.
 >

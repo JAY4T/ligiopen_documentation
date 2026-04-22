@@ -203,9 +203,9 @@ At the bottom of the fixture detail, you'll see the **officials assigned** to th
 
 ---
 
-## A Real Scenario: Wanjiku Checks the Result
+## A Real Scenario: Adhiambo Checks the Result
 
-> **Wanjiku Njeri** is a huge Gor Mahia fan living in Kisumu. She couldn't watch Saturday's match on TV. On Sunday morning, she opens LigiOpen.
+> **Adhiambo Achieng** is a huge Gor Mahia fan living in Kisumu. She couldn't watch Saturday's match on TV. On Sunday morning, she opens LigiOpen.
 >
 > She goes straight to the **Home tab** — she can see Gor Mahia vs AFC Leopards listed with a green "Completed" badge. The score shows **3–1 to Gor Mahia**. 😍
 >

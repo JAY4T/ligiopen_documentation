@@ -1,9 +1,11 @@
 /* LigiOpen Documentation Custom Styles */
 
 :root {
-  --primary-color: #2C5F2D;      /* Kenyan flag green */
-  --secondary-color: #DC143C;     /* Kenyan flag red */
-  --accent-color: #000000;        /* Kenyan flag black */
+  --primary-color: #004D3D;      /* Clubhouse Green */
+  --secondary-color: #2459CF;    /* Beacon Blue */
+  --accent-color: #6DF8F7;       /* Kickoff Green (teal) */
+  --dark-color: #061C1F;         /* After-Match Black */
+  --neutral-color: #D9D9D9;      /* Monochrome Engine */
   --light-bg: #f8f9fa;
   --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
   --hover-shadow: 0 8px 15px rgba(0,0,0,0.15);
@@ -22,7 +24,7 @@ body {
 
 /* Header Styles */
 .site-header {
-  background: linear-gradient(135deg, var(--primary-color) 0%, #1a3d1b 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-color) 100%);
   color: white;
   padding: 2rem 0;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -256,8 +258,8 @@ body {
 
 /* Info Boxes */
 .info-box {
-  background: #e8f4f8;
-  border-left: 4px solid #17a2b8;
+  background: rgba(109, 248, 247, 0.1);
+  border-left: 4px solid var(--accent-color);
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 4px;
@@ -305,9 +307,9 @@ tbody tr:hover {
   background: var(--light-bg);
 }
 
-/* Kenyan Flag Colors Accent */
-.kenyan-accent {
-  border-top: 3px solid #000000;
+/* Brand Accent */
+.brand-accent {
+  border-top: 3px solid var(--accent-color);
   border-bottom: 3px solid var(--secondary-color);
   padding: 2rem 0;
   margin: 2rem 0;
@@ -328,7 +330,7 @@ tbody tr:hover {
 }
 
 .btn:hover {
-  background: #1a3d1b;
+  background: #003329;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -338,12 +340,12 @@ tbody tr:hover {
 }
 
 .btn-secondary:hover {
-  background: #b01030;
+  background: #1a3fa0;
 }
 
 /* Footer */
 .site-footer {
-  background: var(--accent-color);
+  background: var(--dark-color);
   color: white;
   padding: 3rem 0 1rem 0;
   margin-top: 4rem;

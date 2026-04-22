@@ -307,7 +307,7 @@ Everything League Admins can do with venues, you can do too. Additionally:
 >
 > Clubs → + → Enter full name "Nairobi FC", abbreviation "NFC", city "Nairobi", founded 2019, stadium "City Stadium", capacity 5000. Upload the club logo. Save.
 >
-> Next: Club Detail → Admins → + → search for "Peter Njoroge" (the club's secretary who already has a LigiOpen account) → Assign. Peter is now Club Admin for Nairobi FC.
+> Next: Club Detail → Admins → + → search for "Hassan Abdalla" (the club's secretary who already has a LigiOpen account) → Assign. Peter is now Club Admin for Nairobi FC.
 >
 > Peter gets an email, switches to his Club Admin role, and starts registering his squad. 🎉
 

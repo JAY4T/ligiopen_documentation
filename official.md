@@ -158,7 +158,7 @@ For a detailed walkthrough of recording match events, see the [Content Admin Gui
 >
 > He also opens his **Availability** section and adds a note: "Unavailable 20–27 August — CAF referee training camp in Cairo." This way, no League Admin will assign him during that week without knowing.
 >
-> On Saturday, James arrives at Nyayo Stadium at 2:00 PM. The Content Admin, James Njoroge, is already there with the LigiOpen app ready. James focuses on refereeing. James Njoroge handles the live event recording. Both doing their jobs, the match goes smoothly. ⚽🟡
+> On Saturday, James arrives at Nyayo Stadium at 2:00 PM. The Content Admin, Brian Wafula, is already there with the LigiOpen app ready. James focuses on refereeing. Brian Wafula handles the live event recording. Both doing their jobs, the match goes smoothly. ⚽🟡
 
 ---
 

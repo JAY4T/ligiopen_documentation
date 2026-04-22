@@ -301,15 +301,15 @@ As a Club Admin, you can declare availability on behalf of your players:
 
 ## Real Scenarios
 
-### Scenario 1: Coach Mwangi Registers His Squad
+### Scenario 1: Coach Cheruiyot Registers His Squad
 
-> **Coach Mwangi** of Sofapaka FC just became Club Admin on LigiOpen. He switches to his Club Admin role and heads to the **Squad tab**.
+> **Coach Cheruiyot** of Sofapaka FC just became Club Admin on LigiOpen. He switches to his Club Admin role and heads to the **Squad tab**.
 >
 > He taps **+** and starts registering his players one by one. After adding 20 players, he notices they all have the **Shadow** badge.
 >
 > He goes through each player and taps **Send Invite**. Each player gets an email. By the end of the week, 16 out of 20 have claimed their profiles — their badges now show **Active**. The other 4 get a reminder.
 >
-> Coach Mwangi then goes to the **Club tab → Teams → Sofapaka First Team → Register for Division** and submits their registration for the NSL Premier Division 2025/26. The League Admin reviews and confirms it two days later. ✅
+> Coach Cheruiyot then goes to the **Club tab → Teams → Sofapaka First Team → Register for Division** and submits their registration for the NSL Premier Division 2025/26. The League Admin reviews and confirms it two days later. ✅
 
 ---
 
