@@ -142,7 +142,7 @@ To record events:
 
 > 💡 **In most matches, a dedicated Content Admin will handle this.** You'll only need to record events yourself if the Content Admin is absent or asks for your help.
 
-For a detailed walkthrough of recording match events, see the [Content Admin Guide →](/content-admin).
+For a detailed walkthrough of recording match events, see the [Content Admin Guide →]({{ '/content-admin' | relative_url }}).
 
 ---
 
@@ -176,4 +176,4 @@ Stay tuned for updates! 🚀
 
 ---
 
-👉 **Related:** [League Admin Guide →](/league-admin) — to understand how you're assigned to fixtures. | [Content Admin Guide →](/content-admin) — for recording match events on match day.
+👉 **Related:** [League Admin Guide →]({{ '/league-admin' | relative_url }}) — to understand how you're assigned to fixtures. | [Content Admin Guide →]({{ '/content-admin' | relative_url }}) — for recording match events on match day.

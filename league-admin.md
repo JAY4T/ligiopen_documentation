@@ -353,4 +353,4 @@ Blackout dates are periods when the venue is unavailable (national holidays, oth
 
 ---
 
-👉 **Related:** [Super Admin Guide →](/super-admin) — the Super Admin creates the leagues and seasons you manage.
+👉 **Related:** [Super Admin Guide →]({{ '/super-admin' | relative_url }}) — the Super Admin creates the leagues and seasons you manage.

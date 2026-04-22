@@ -329,4 +329,4 @@ As a Club Admin, you can declare availability on behalf of your players:
 
 ---
 
-👉 **Related:** [League Admin Guide →](/league-admin) — to understand how your registration is reviewed and approved.
+👉 **Related:** [League Admin Guide →]({{ '/league-admin' | relative_url }}) — to understand how your registration is reviewed and approved.

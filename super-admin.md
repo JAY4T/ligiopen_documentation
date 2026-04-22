@@ -313,4 +313,4 @@ Everything League Admins can do with venues, you can do too. Additionally:
 
 ---
 
-👉 **Related:** [League Admin Guide →](/league-admin) | [Club Admin Guide →](/club-admin)
+👉 **Related:** [League Admin Guide →]({{ '/league-admin' | relative_url }}) | [Club Admin Guide →]({{ '/club-admin' | relative_url }})

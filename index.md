@@ -41,13 +41,13 @@ LigiOpen has different experiences for different people. Find yourself below:
 
 | Role | Who They Are | Guide |
 |---|---|---|
-| 🙋 **Fan** | Anyone who downloads the app. Browse fixtures, standings, clubs, and live match updates. | [Fan Guide →](/fan) |
-| ⚽ **Player** | A registered athlete with a player profile. See your stats, declare availability, view your history. | [Player Guide →](/player) |
-| 🛡️ **Club Admin** | Manages a club. Registers players, manages teams, submits registrations. | [Club Admin Guide →](/club-admin) |
-| 📋 **League Admin** | Runs a competition. Creates divisions, generates fixtures, approves results, manages standings. | [League Admin Guide →](/league-admin) |
-| 🔑 **Super Admin** | Full platform control. Creates clubs, leagues, seasons, assigns roles. | [Super Admin Guide →](/super-admin) |
-| 📹 **Content Admin** | Match day operator. Records live goals, cards, subs, and submits the final score. | [Content Admin Guide →](/content-admin) |
-| 🟡 **Official** | Referee or assistant referee. Manages assignments and availability. | [Official Guide →](/official) |
+| 🙋 **Fan** | Anyone who downloads the app. Browse fixtures, standings, clubs, and live match updates. | [Fan Guide →]({{ '/fan' | relative_url }}) |
+| ⚽ **Player** | A registered athlete with a player profile. See your stats, declare availability, view your history. | [Player Guide →]({{ '/player' | relative_url }}) |
+| 🛡️ **Club Admin** | Manages a club. Registers players, manages teams, submits registrations. | [Club Admin Guide →]({{ '/club-admin' | relative_url }}) |
+| 📋 **League Admin** | Runs a competition. Creates divisions, generates fixtures, approves results, manages standings. | [League Admin Guide →]({{ '/league-admin' | relative_url }}) |
+| 🔑 **Super Admin** | Full platform control. Creates clubs, leagues, seasons, assigns roles. | [Super Admin Guide →]({{ '/super-admin' | relative_url }}) |
+| 📹 **Content Admin** | Match day operator. Records live goals, cards, subs, and submits the final score. | [Content Admin Guide →]({{ '/content-admin' | relative_url }}) |
+| 🟡 **Official** | Referee or assistant referee. Manages assignments and availability. | [Official Guide →]({{ '/official' | relative_url }}) |
 
 > 💡 **You can have more than one role.** A person can be both a Fan and a Player, or a Club Admin and a Fan, at the same time. You switch between roles from your **Profile tab**.
 
@@ -69,21 +69,21 @@ Every new user starts as a **Fan** — you can browse everything right away. Add
 ### 4️⃣ Start Using LigiOpen
 Explore fixtures, check standings, or manage your club. It's that simple.
 
-👉 **[Full setup guide here →](/getting-started)**
+👉 **[Full setup guide here →]({{ '/getting-started' | relative_url }})**
 
 ---
 
 ## Quick Links
 
-- 🚀 [Getting Started — First-Time Setup](/getting-started)
-- 🎭 [Understanding All Roles](/user-roles)
-- 🏠 [Fan Guide](/fan)
-- ⚽ [Player Guide](/player)
-- 🛡️ [Club Admin Guide](/club-admin)
-- 📋 [League Admin Guide](/league-admin)
-- 🔑 [Super Admin Guide](/super-admin)
-- 📹 [Content Admin Guide](/content-admin)
-- 🟡 [Official / Referee Guide](/official)
+- 🚀 [Getting Started — First-Time Setup]({{ '/getting-started' | relative_url }})
+- 🎭 [Understanding All Roles]({{ '/user-roles' | relative_url }})
+- 🏠 [Fan Guide]({{ '/fan' | relative_url }})
+- ⚽ [Player Guide]({{ '/player' | relative_url }})
+- 🛡️ [Club Admin Guide]({{ '/club-admin' | relative_url }})
+- 📋 [League Admin Guide]({{ '/league-admin' | relative_url }})
+- 🔑 [Super Admin Guide]({{ '/super-admin' | relative_url }})
+- 📹 [Content Admin Guide]({{ '/content-admin' | relative_url }})
+- 🟡 [Official / Referee Guide]({{ '/official' | relative_url }})
 
 ---
 

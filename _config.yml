@@ -1,8 +1,8 @@
 # LigiOpen Documentation Site Configuration
 title: LigiOpen
 description: The Complete Guide to Kenya's Premier Sports Management Platform
-baseurl: ""
-url: ""
+baseurl: "/ligiopen_documentation"
+url: "https://jay4t.github.io"
 
 # Plugins
 plugins:

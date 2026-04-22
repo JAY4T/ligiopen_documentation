@@ -215,4 +215,4 @@ At the bottom of the fixture detail, you'll see the **officials assigned** to th
 
 ---
 
-👉 **Next:** If you've been invited to claim a player profile, read the [Player Guide →](/player)
+👉 **Next:** If you've been invited to claim a player profile, read the [Player Guide →]({{ '/player' | relative_url }})

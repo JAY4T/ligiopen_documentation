@@ -207,10 +207,10 @@ The app reloads the tabs and screens for that role.
 ---
 
 👉 **Pick your role guide:**
-- [Fan Guide →](/fan)
-- [Player Guide →](/player)
-- [Club Admin Guide →](/club-admin)
-- [League Admin Guide →](/league-admin)
-- [Super Admin Guide →](/super-admin)
-- [Content Admin Guide →](/content-admin)
-- [Official Guide →](/official)
+- [Fan Guide →]({{ '/fan' | relative_url }})
+- [Player Guide →]({{ '/player' | relative_url }})
+- [Club Admin Guide →]({{ '/club-admin' | relative_url }})
+- [League Admin Guide →]({{ '/league-admin' | relative_url }})
+- [Super Admin Guide →]({{ '/super-admin' | relative_url }})
+- [Content Admin Guide →]({{ '/content-admin' | relative_url }})
+- [Official Guide →]({{ '/official' | relative_url }})

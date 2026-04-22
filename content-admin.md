@@ -269,4 +269,4 @@ The League Admin receives a notification to review and approve the result. Until
 
 ---
 
-👉 **Related:** [League Admin Guide →](/league-admin) — the League Admin reviews and approves your submitted results.
+👉 **Related:** [League Admin Guide →]({{ '/league-admin' | relative_url }}) — the League Admin reviews and approves your submitted results.

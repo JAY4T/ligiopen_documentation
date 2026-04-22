@@ -98,7 +98,7 @@ Starting out, you're a **Fan**. Other roles unlock more features:
 
 You don't request roles yourself — they're assigned to you by the people who manage your league or club.
 
-👉 **[Learn about all roles in detail →](/user-roles)**
+👉 **[Learn about all roles in detail →]({{ '/user-roles' | relative_url }})**
 
 ---
 
@@ -154,4 +154,4 @@ To log out of LigiOpen:
 
 ---
 
-👉 **Next:** [Understand all the roles in LigiOpen →](/user-roles)
+👉 **Next:** [Understand all the roles in LigiOpen →]({{ '/user-roles' | relative_url }})

@@ -204,4 +204,4 @@ Tap any entry to see the full league table for that division.
 
 ---
 
-👉 **Related:** [Club Admin Guide →](/club-admin) — to understand how your club admin manages your profile from their side.
+👉 **Related:** [Club Admin Guide →]({{ '/club-admin' | relative_url }}) — to understand how your club admin manages your profile from their side.
